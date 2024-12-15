@@ -1,0 +1,16 @@
+# Linux Installation on my new tower:
+Enter Settings > Boot order or smth. The point is that boot order is based not on partitions but rather on devices. Thus, to make second EFI partition bootable, change it's order under the device configuration.
+
+# Ranger images preview
+Use `pacman -Qi ranger` and install corresponding optional dependencies to address desireable features.
+
+# Hyprland
+## Shortcuts
+* `Meta+Q` - run `$terminal` (kitty by default)
+* `Meta+Shift+$arrow` - move a window to another workspace
+* `Meta+V` - toggle floating mode for active window
+
+# Useful software
+* `ranger` - file manager with preview capabilities
+* `kitty` - GPU-based terminal emulator
+* `swww` - background changing app with out-of-box switching animations

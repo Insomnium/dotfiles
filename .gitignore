@@ -1,5 +1,6 @@
 *
 !.gitignore
+!hints
 !.bin/
 !.bin/*
 !.config/
