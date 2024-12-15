@@ -1,0 +1,9 @@
+*
+!.gitignore
+!.bin/
+!.bin/*
+!.config/
+!.config/hypr/
+!.config/hypr/*
+!.vimrc
+
