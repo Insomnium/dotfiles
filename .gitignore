@@ -7,4 +7,13 @@
 !.config/hypr/
 !.config/hypr/*
 !.vimrc
+!.config/rofi/
+!.config/rofi/*
+!.local/
+!.local/share/
+!.local/share/*
+#!.local/share/rofi/
+#!.local/share/rofi/*
+!.local/share/rofi/themes/
+!.local/share/rofi/themes/*
 
