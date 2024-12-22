@@ -6,6 +6,8 @@
 !.config/
 !.config/hypr/
 !.config/hypr/*
+!.config/kitty/
+!.config/kitty/*
 !.vimrc
 !.config/rofi/
 !.config/rofi/*
