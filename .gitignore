@@ -13,7 +13,7 @@
 !.config/rofi/*
 !.local/
 !.local/share/
-!.local/share/*
+#!.local/share/*
 !.local/share/rofi/themes/
 !.local/share/rofi/themes/*
 !Pictures/
