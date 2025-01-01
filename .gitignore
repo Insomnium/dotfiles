@@ -8,6 +8,8 @@
 !.config/hypr/*
 !.config/kitty/
 !.config/kitty/*
+!.config/waybar/
+!.config/waybar/*
 !.vimrc
 !.config/rofi/
 !.config/rofi/*
