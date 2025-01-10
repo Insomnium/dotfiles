@@ -14,3 +14,11 @@ Use `pacman -Qi ranger` and install corresponding optional dependencies to addre
 * `ranger` - file manager with preview capabilities
 * `kitty` - GPU-based terminal emulator
 * `swww` - background changing app with out-of-box switching animations
+
+
+# Vim
+## NerdTree
+
+* Press `Ctrl+W` to put focus on NerdTree
+* While in NerdTree, use `:/blah-blah` to search for file by mask (like starting with substring)
+
