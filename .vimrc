@@ -11,6 +11,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree | wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 

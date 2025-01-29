@@ -15,10 +15,12 @@ Use `pacman -Qi ranger` and install corresponding optional dependencies to addre
 * `kitty` - GPU-based terminal emulator
 * `swww` - background changing app with out-of-box switching animations
 
+# Rofi
+See [Customizations](https://github.com/adi1090x/rofi?tab=readme-ov-file) and follow instructions
 
 # Vim
 ## NerdTree
 
-* Press `Ctrl+W` to put focus on NerdTree
+* Press `Ctrl+W` to put focus on NerdTree (then probably left arrow to focus on it)
 * While in NerdTree, use `:/blah-blah` to search for file by mask (like starting with substring)
 
