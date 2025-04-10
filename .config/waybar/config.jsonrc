@@ -7,7 +7,7 @@
         "custom/media"
     ],
     "modules-center": ["sway/window"],
-    "modules-right": ["bluetooth", "idle_inhibitor", "temperature", "cpu", "memory","network", "pulseaudio", "backlight", "keyboard-state", "battery", "battery#bat2", "tray", "clock"],
+    "modules-right": ["bluetooth", "temperature", "cpu", "memory","network", "pulseaudio", "backlight", "keyboard-state", "tray", "hyprland/language", "clock"],
     // Modules configuration
     "hyprland/workspaces": {
         "format": "{name}: {icon}",
@@ -20,6 +20,9 @@
             "active": "",
             "default": ""
         }
+    },
+    "hyprland/language": {
+        "format": "{short}"
     },
     "bluetooth": {
         // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
@@ -48,13 +51,6 @@
         "format-icons": ["", ""],
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
-    },
-    "idle_inhibitor": {
-        "format": "{icon}",
-        "format-icons": {
-            "activated": "",
-            "deactivated": ""
-        }
     },
     "tray": {
         // "icon-size": 21,
@@ -86,31 +82,15 @@
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
-    "battery": {
-        "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
-        "format-alt": "{icon} {time}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
-    },
-    "battery#bat2": {
-        "bat": "BAT2"
-    },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": " {ifname}",
+        "format-wifi": "{essid} up:{{bandwidthUpBits}} down: {{bandwidthDownBits}} /  ",
+        "format-ethernet": " {ifname} up:{bandwidthUpBits} / down:{bandwidthDownBits}",
         "tooltip-format": " {ifname} via {gwaddr}",
         "format-linked": " {ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠ {ifname}",
-        "format-alt": " {ifname}: {ipaddr}/{cidr}"
+        "format-alt": " {ifname}: {ipaddr}/{cidr}",
+        "interval": 2
     },
     "custom/media": {
         "format": "{icon} {}",
@@ -121,8 +101,11 @@
             "default": "🎜"
         },
         "escape": true,
+        "on-click-right": "pavucontrol",
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+    },
+    "pulseaudio": {
+        "on-click-right": "pavucontrol"
     },
     "wlr/taskbar": {
         "format": "{icon}",
