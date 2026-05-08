@@ -16,6 +16,6 @@ bold_italic_font auto
 
 
 # BEGIN_KITTY_THEME
-# 3024 Night
+# Default
 include current-theme.conf
 # END_KITTY_THEME

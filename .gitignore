@@ -10,6 +10,8 @@
 !.config/kitty/*
 !.config/waybar/
 !.config/waybar/*
+!.config/fastfetch/
+!.config/fastfetch/*
 !.vimrc
 !.config/rofi/
 !.config/rofi/*
