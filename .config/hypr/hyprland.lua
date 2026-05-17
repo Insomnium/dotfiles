@@ -287,7 +287,7 @@ hl.window_rule({
 -------------------
 
 hl.on("hyprland.start", function() 
-    hl.exec_cmd("waybar -c ~/.config/waybar/config.jsonrc")
+    hl.exec_cmd("waybar -c ~/.config/waybar/config.jsonc")
     hl.exec_cmd("awww-daemon")
     hl.exec_cmd("~/IdeaProjects/wallhalla/wallhalla/wallhalla.py")
     hl.exec_cmd("hyprctl dispatch workspace 1")
