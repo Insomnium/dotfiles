@@ -1,0 +1,122 @@
+[2026-05-17 18:37:00.017] [info] Using configuration file /home/insomnium/.config/waybar/config.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/groups.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/distro.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/storage.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/system.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/power-profiles-daemon.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/workspace.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/idle-ihibitor.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/audio.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/connections.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/battery.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/clock.jsonc
+[2026-05-17 18:37:00.017] [info] Including resource file: ./modules/tray-notif.jsonc
+[2026-05-17 18:37:00.018] [info] Discovered appearance 'dark'
+[2026-05-17 18:37:00.029] [info] Using CSS file /home/insomnium/.config/waybar/style.css
+[2026-05-17 18:37:00.032] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:00.032] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:00.033] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:00.033] [info] Hyprland IPC starting
+[2026-05-17 18:37:00.033] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:00.033] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:00.035] [warning] no bluetooth controller found
+[2026-05-17 18:37:00.035] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:00.040] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:00.062] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:00.062] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:00.062] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:00.063] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:00.064] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:00.065] [warning] no bluetooth controller found
+[2026-05-17 18:37:00.065] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:00.067] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:00.170] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:00.171] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:00.296] [info] Bar configured (width: 1920, height: 42) for output: HDMI-A-1
+[2026-05-17 18:37:00.296] [info] Bar configured (width: 2560, height: 42) for output: DP-1
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+sh: line 1: google-chrome: command not found
+[2026-05-17 18:37:33.159] [info] Using configuration file /home/insomnium/.config/waybar/config.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/groups.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/distro.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/storage.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/system.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/power-profiles-daemon.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/workspace.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/idle-ihibitor.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/audio.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/connections.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/battery.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/clock.jsonc
+[2026-05-17 18:37:33.159] [info] Including resource file: ./modules/tray-notif.jsonc
+[2026-05-17 18:37:33.160] [info] Discovered appearance 'dark'
+[2026-05-17 18:37:33.172] [info] Using CSS file /home/insomnium/.config/waybar/style.css
+[2026-05-17 18:37:33.175] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:33.175] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:33.176] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:33.176] [info] Hyprland IPC starting
+[2026-05-17 18:37:33.176] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:33.176] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:33.177] [warning] no bluetooth controller found
+[2026-05-17 18:37:33.178] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:33.182] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:33.202] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:33.202] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:33.203] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:33.204] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:33.204] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:33.205] [warning] no bluetooth controller found
+[2026-05-17 18:37:33.206] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:33.208] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:33.319] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:33.319] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:33.431] [info] Bar configured (width: 1920, height: 42) for output: HDMI-A-1
+[2026-05-17 18:37:33.431] [info] Bar configured (width: 2560, height: 42) for output: DP-1
+[2026-05-17 18:37:39.714] [info] Using configuration file /home/insomnium/.config/waybar/config.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/groups.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/distro.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/storage.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/system.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/power-profiles-daemon.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/workspace.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/idle-ihibitor.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/audio.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/connections.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/battery.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/clock.jsonc
+[2026-05-17 18:37:39.714] [info] Including resource file: ./modules/tray-notif.jsonc
+[2026-05-17 18:37:39.715] [info] Discovered appearance 'dark'
+[2026-05-17 18:37:39.727] [info] Using CSS file /home/insomnium/.config/waybar/style.css
+[2026-05-17 18:37:39.730] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:39.730] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:39.731] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:39.731] [info] Hyprland IPC starting
+[2026-05-17 18:37:39.733] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:39.733] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:39.734] [warning] no bluetooth controller found
+[2026-05-17 18:37:39.735] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:39.739] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:39.760] [warning] There is no configuration for 'custom/office', element will be hidden
+[2026-05-17 18:37:39.760] [warning] There is no configuration for 'custom/spotify', element will be hidden
+[2026-05-17 18:37:39.760] [warning] module temperature: Disabling module "temperature", Can't open /sys/class/thermal/thermal_zone8/temp
+[2026-05-17 18:37:39.761] [info] Loading persistent workspaces from Waybar config
+[2026-05-17 18:37:39.762] [info] Loading persistent workspaces from Hyprland workspace rules
+[2026-05-17 18:37:39.763] [warning] no bluetooth controller found
+[2026-05-17 18:37:39.764] [warning] No batteries.
+sh: line 1: swaync-client: command not found
+[2026-05-17 18:37:39.767] [error] tray-arrow stopped unexpectedly, is it endless?
+[2026-05-17 18:37:39.769] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:39.769] [error] Failed to query power-profiles-daemon via dbus: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[2026-05-17 18:37:40.008] [info] Bar configured (width: 1920, height: 42) for output: HDMI-A-1
+[2026-05-17 18:37:40.008] [info] Bar configured (width: 2560, height: 42) for output: DP-1
+Opening in existing browser session.

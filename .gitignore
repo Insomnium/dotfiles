@@ -9,7 +9,7 @@
 !.config/kitty/
 !.config/kitty/*
 !.config/waybar/
-!.config/waybar/*
+!.config/waybar/**
 !.config/fastfetch/
 !.config/fastfetch/*
 !.vimrc

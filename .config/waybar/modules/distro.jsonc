@@ -1,0 +1,31 @@
+{
+  "custom/distro": {
+    "format": "",
+    "tooltip": false
+  },
+  "custom/terminal": {
+    "format": "󰆍",
+    "on-click": "kitty",
+    "tooltip": false
+  },
+  "custom/code": {
+    "format": "󰨞",
+    "on-click": "code",
+    "tooltip": false
+  },
+  "custom/obsidian": {
+    "format": "󰹕",
+    "on-click": "obsidian",
+    "tooltip": false
+  },
+  "custom/files": {
+    "format": "",
+    "on-click": "nautilus",
+    "tooltip": false
+  },
+  "custom/browser": {
+    "format": "",
+    "on-click": "google-chrome-stable",
+    "tooltip": false
+  }
+}
