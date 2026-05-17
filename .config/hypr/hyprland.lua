@@ -208,7 +208,7 @@ hl.window_rule({
     match = {
         class = "mpv",
     },
-    opacity = "1 1 1 override",
+    opaque = true,
     float = true,
 })
 
