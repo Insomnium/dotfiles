@@ -234,7 +234,7 @@ hl.window_rule({
 hl.window_rule({
     name = "YandexMusic",
     match = {
-        class = "org.telegram.desktop",
+        class = "YandexMusic",
     },
     opacity = "1 1 1 override",
     float = true,
@@ -291,4 +291,16 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("awww-daemon")
     hl.exec_cmd("~/IdeaProjects/wallhalla/wallhalla/wallhalla.py")
     hl.exec_cmd("hyprctl dispatch workspace 1")
+end)
+
+------------------
+--- PLUGINS ------
+------------------
+--  Hyprmission: x
+-- Alt+Tab alikes behaviour
+-- See: https://github.com/gfhdhytghd/hymission
+hl.bind(mainMod .. " + TAB", hl.plugin.hymission.toggle)
+
+hl.bind("SUPER + A", function()
+    hl.plugin.hymission.toggle("forceall")
 end)
