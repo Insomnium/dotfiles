@@ -4,6 +4,8 @@
 !.bin/
 !.bin/*
 !.config/
+!.config/niri
+!.config/niri/**
 !.config/hypr/
 !.config/hypr/*
 !.config/kitty/
