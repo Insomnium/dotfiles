@@ -16,6 +16,8 @@
 !.config/waybar/**
 !.config/fastfetch/
 !.config/fastfetch/*
+!.config/rofi/
+!.config/rofi/**
 !.vimrc
 !.config/rofi/
 !.config/rofi/*

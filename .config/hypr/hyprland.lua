@@ -299,7 +299,7 @@ end)
 --  Hyprmission: x
 -- Alt+Tab alikes behaviour
 -- See: https://github.com/gfhdhytghd/hymission
-hl.bind(mainMod .. " + TAB", hl.plugin.hymission.toggle)
+--hl.bind(mainMod .. " + TAB", hl.plugin.hymission.toggle)
 
 hl.bind("SUPER + A", function()
     hl.plugin.hymission.toggle("forceall")

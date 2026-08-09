@@ -4,7 +4,7 @@ map ctrl+insert copy_to_clipboard
 
 include ./theme.conf
 
-
+hide_window_decorations yes
 
 # BEGIN_KITTY_FONTS
 font_family      family=Iosevka postscript_name=Iosevka
@@ -16,6 +16,6 @@ bold_italic_font auto
 
 
 # BEGIN_KITTY_THEME
-# Default
+# Cyberpunk Neon
 include current-theme.conf
 # END_KITTY_THEME
