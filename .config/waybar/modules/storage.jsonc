@@ -3,7 +3,7 @@
     "tooltip": false,
     "interval": 3600,
     "path": "/",
-    "format": "󱙋 / <span size='11pt'>{used}</span>",
+    "format": "󱙋 / <span>{used}</span>",
     "states": {
       "warning": 80,
       "critical": 90
@@ -12,7 +12,7 @@
   "memory": {
     "tooltip": false,
     "interval": 15,
-    "format": "󰍛 RAM <span size='11pt'>{used}</span>",
+    "format": "󰍛 RAM <span >{used}</span>",
     "states": {
       "warning": 75,
       "critical": 85

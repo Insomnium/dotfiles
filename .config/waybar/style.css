@@ -11,7 +11,8 @@
   min-height: 0px;
   border: none;
   border-radius: 0;
-  font-family: "Inter", "JetBrainsMono Nerd Font";
+  font-family: "Iosevka", "JetBrainsMono Nerd Font";
+  font-size: 10px;
 }
 
 window#waybar {
