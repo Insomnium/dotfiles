@@ -275,9 +275,10 @@ layout {
 // See the binds section below for more spawn examples.
 
 // This line starts waybar, a commonly used bar for Wayland compositors.
-spawn-at-startup "waybar"
-spawn-at-startup "awww-daemon"
-spawn-at-startup "~/IdeaProjects/wallhalla/wallhalla/wallhalla.py"
+//spawn-at-startup "waybar"
+spawn-at-startup "noctalia"
+//spawn-at-startup "awww-daemon"
+//spawn-at-startup "~/IdeaProjects/wallhalla/wallhalla/wallhalla.py"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
@@ -644,3 +645,4 @@ binds {
     Mod+R { spawn "~/.config/rofi/launchers/type-1/launcher.sh"; }
     Mod+E { spawn "~/.config/rofi/powermenu/type-1/powermenu.sh"; }
 }
+

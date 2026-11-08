@@ -5,6 +5,8 @@ local menu = "~/.config/rofi/launchers/type-1/launcher.sh"
 local menuFileBrowser = "rofi -modes filebrowser -show filebrowser"
 local menuPower = "~/.config/rofi/powermenu/type-1/powermenu.sh"
 
+local noctaliaMenu = "noctalia msg panel-toggle launcher"
+
 ------------------
 ---- MONITORS ----
 ------------------
@@ -141,6 +143,7 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
+hl.bind(mainMod .. " + Shift + R", hl.dsp.exec_cmd(noctaliaMenu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(menuPower))
 
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
@@ -287,9 +290,10 @@ hl.window_rule({
 -------------------
 
 hl.on("hyprland.start", function() 
-    hl.exec_cmd("waybar -c ~/.config/waybar/config.jsonc")
-    hl.exec_cmd("awww-daemon")
-    hl.exec_cmd("~/IdeaProjects/wallhalla/wallhalla/wallhalla.py")
+    --hl.exec_cmd("waybar -c ~/.config/waybar/config.jsonc")
+    hl.exec_cmd("noctalia")
+    --hl.exec_cmd("awww-daemon")
+    --hl.exec_cmd("~/IdeaProjects/wallhalla/wallhalla/wallhalla.py")
     hl.exec_cmd("hyprctl dispatch workspace 1")
 end)
 
@@ -304,3 +308,4 @@ end)
 hl.bind("SUPER + A", function()
     hl.plugin.hymission.toggle("forceall")
 end)
+

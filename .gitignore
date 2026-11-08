@@ -18,6 +18,8 @@
 !.config/fastfetch/*
 !.config/rofi/
 !.config/rofi/**
+!.config/noctalia/
+!.config/noctalia/**
 !.vimrc
 !.config/rofi/
 !.config/rofi/*
