@@ -123,7 +123,7 @@ hl.config({
 
         follow_mouse = 1,
 
-        sensitivity = -0.2, -- -1.0 - 1.0, 0 means no modification.
+        sensitivity = -0.8, -- -1.0 - 1.0, 0 means no modification.
 
         touchpad = {
             natural_scroll = true,
@@ -142,8 +142,8 @@ hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminalGf))
 hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + Shift + R", hl.dsp.exec_cmd(noctaliaMenu))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(noctaliaMenu))
+hl.bind(mainMod .. " + Shift + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(menuPower))
 
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
