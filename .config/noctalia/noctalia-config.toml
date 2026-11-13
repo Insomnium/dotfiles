@@ -1,11 +1,11 @@
 [bar.default]
-center = [ "clock", "weather" ]
+center = [ "notifications", "clock", "weather", "spacer_6" ]
 concave_edge_corners = false
 end = [
+    "spacer_5",
     "media",
     "spacer_2",
     "tray",
-    "notifications",
     "clipboard",
     "cpu",
     "temp",
@@ -17,6 +17,7 @@ end = [
     "volume",
     "brightness",
     "battery",
+    "keyboard_layout",
     "session"
 ]
 start = [ "launcher", "wallpaper", "control-center", "workspaces", "active_window" ]
@@ -112,16 +113,19 @@ directory = "/home/insomnium/Pictures/walls"
     order = "alphabetical"
 
     [wallpaper.default]
-    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
 
     [wallpaper.last]
-    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
 
     [wallpaper.monitors.DP-1]
-    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
 
     [wallpaper.monitors.HDMI-A-1]
-    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
+
+[widget.network]
+vpn_status = "both"
 
 [widget.spacer_2]
 type = "spacer"
@@ -130,4 +134,10 @@ type = "spacer"
 type = "spacer"
 
 [widget.spacer_4]
+type = "spacer"
+
+[widget.spacer_5]
+type = "spacer"
+
+[widget.spacer_6]
 type = "spacer"
