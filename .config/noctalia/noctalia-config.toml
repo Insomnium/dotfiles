@@ -1,3 +1,29 @@
+[bar.default]
+center = [ "clock", "weather" ]
+concave_edge_corners = false
+end = [
+    "media",
+    "spacer_2",
+    "tray",
+    "notifications",
+    "clipboard",
+    "cpu",
+    "temp",
+    "ram",
+    "spacer_4",
+    "network",
+    "spacer_3",
+    "bluetooth",
+    "volume",
+    "brightness",
+    "battery",
+    "session"
+]
+start = [ "launcher", "wallpaper", "control-center", "workspaces", "active_window" ]
+
+[dock]
+active_monitor_only = true
+
 [location]
 address = "Izhevsk"
 
@@ -67,6 +93,9 @@ widget_order = [ "lockscreen-login-box@HDMI-A-1", "lockscreen-login-box@DP-1" ]
         show_unlock_hint = true
         show_weather = true
 
+[shell]
+avatar_path = "/home/insomnium/Pictures/loki.jpg"
+
 [theme]
 builtin = "Noctalia"
 community_palette = "Oxocarbon"
@@ -83,13 +112,22 @@ directory = "/home/insomnium/Pictures/walls"
     order = "alphabetical"
 
     [wallpaper.default]
-    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
 
     [wallpaper.last]
-    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
 
     [wallpaper.monitors.DP-1]
-    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
 
     [wallpaper.monitors.HDMI-A-1]
-    path = "/home/insomnium/Pictures/walls/wallhaven-72we33.jpg"
+    path = "/home/insomnium/Pictures/walls/wallhaven-7py28o.jpg"
+
+[widget.spacer_2]
+type = "spacer"
+
+[widget.spacer_3]
+type = "spacer"
+
+[widget.spacer_4]
+type = "spacer"
